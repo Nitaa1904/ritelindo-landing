@@ -1,18 +1,21 @@
 # 🛒 B2B Landing Page - Ritelindo Group
 
-Landing Page B2B High-Converting yang dirancang khusus sebagai destinasi utama lalu lintas iklan Google Ads Search (*high-intent keywords*) untuk produk **Paket Rak Minimarket, Rak Gudang, dan Perlengkapan Toko Modern** Ritelindo Group.
+Landing Page B2B High-Converting yang dirancang khusus sebagai destinasi utama lalu lintas iklan Google Ads Search (_high-intent keywords_) untuk produk **Paket Rak Minimarket, Rak Gudang, dan Perlengkapan Toko Modern** Ritelindo Group.
 
 🌐 **Live Demo:** [ritelindo-landing.vercel.app](https://ritelindo-landing.vercel.app/)
 
 ---
 
 ## 📌 Deskripsi Singkat
-Project ini dibuat sebagai bagian dari **Mini Test Web Developer Intern** di Ritelindo Akselera Kolaborasi. Landing page ini mengoptimalkan antarmuka (UI/UX) untuk meningkatkan tingkat konversi *lead* B2B melalui tombol Call-to-Action (CTA) WhatsApp terintegrasi, penataan *value proposition* yang jelas, dan kalkulator estimasi kebutuhan toko interaktif.
+
+Project ini dibuat sebagai bagian dari **Mini Test Web Developer Intern** di Ritelindo Akselera Kolaborasi. Landing page ini mengoptimalkan antarmuka (UI/UX) untuk meningkatkan tingkat konversi _lead_ B2B melalui tombol Call-to-Action (CTA) WhatsApp terintegrasi, penataan _value proposition_ yang jelas, dan kalkulator estimasi kebutuhan toko interaktif.
 
 ---
 
 ## ✨ Poin Utama & Value Proposition
+
 Landing page ini dirancang untuk menyoroti keunggulan utama Ritelindo Group:
+
 - 📐 **Free Konsultasi & Layout 3D** (Hero Section & Process Flow)
 - 🚚 **Free Ongkir Jawa-Bali**
 - 🛠️ **Free Perakitan** (Jatim, Jateng & DIY)
@@ -24,8 +27,9 @@ Landing page ini dirancang untuk menyoroti keunggulan utama Ritelindo Group:
 ---
 
 ## 🚀 Fitur & Komponen Interaktif
+
 1. **Header & Announcement Bar:** Promo banner dinamis, navigasi responsif, dan CTA WhatsApp.
-2. **Hero Section:** Headline B2B teroptimasi, subheadline persuasif, tombol CTA dengan efek *glow/pulse*, dan *trust badges*.
+2. **Hero Section:** Headline B2B teroptimasi, subheadline persuasif, tombol CTA dengan efek _glow/pulse_, dan _trust badges_.
 3. **Feature Grid:** 6 keunggulan utama perusahaan dengan icon visual Lucide.
 4. **Product & Package Showcase:** Katalog interaktif paket toko (Paket Kelontong, Minimarket Standard, dan Custom Proyek).
 5. **Interactive Store Estimator:** Kalkulator interaktif bagi calon pembeli untuk mensimulasikan estimasi anggaran berdasarkan tipe dan luas toko.
@@ -38,6 +42,7 @@ Landing page ini dirancang untuk menyoroti keunggulan utama Ritelindo Group:
 ---
 
 ## 🛠️ Tech Stack
+
 - **Framework:** React.js (via Vite)
 - **Styling:** Tailwind CSS v4
 - **Icons:** Lucide React
@@ -46,9 +51,10 @@ Landing page ini dirancang untuk menyoroti keunggulan utama Ritelindo Group:
 ---
 
 ## 🏷️ Technical SEO & Optimization
+
 - **Semantic HTML Structure:** Menggunakan tag `<header>`, `<main>`, `<section>`, dan `<footer>` secara runtut.
-- **Heading Hierarchy:** Penataan hierarki heading `<h1>`, `<h2>`, dan `<h3>` yang rapi dan teroptimasi *keyword* B2B.
-- **WhatsApp API Integration:** Setiap tombol CTA secara otomatis memicu WhatsApp API dengan *preset message* sesuai dengan konteks produk/layanan yang dipilih.
+- **Heading Hierarchy:** Penataan hierarki heading `<h1>`, `<h2>`, dan `<h3>` yang rapi dan teroptimasi _keyword_ B2B.
+- **WhatsApp API Integration:** Setiap tombol CTA secara otomatis memicu WhatsApp API dengan _preset message_ sesuai dengan konteks produk/layanan yang dipilih.
 - **Responsive Mobile-First:** Tampilan yang ringan dan sangat responsif di perangkat Mobile, Tablet, maupun Desktop.
 
 ---
@@ -56,25 +62,23 @@ Landing page ini dirancang untuk menyoroti keunggulan utama Ritelindo Group:
 ## 💻 Cara Menjalankan Project di Lokal
 
 1. **Clone repository ini:**
+
    ```bash
    git clone [https://github.com/USERNAME-KAMU/ritelindo-landing.git](https://github.com/USERNAME-KAMU/ritelindo-landing.git)
    cd ritelindo-landing
-
-```
+   ```
 
 2. **Install dependency:**
-```bash
-npm install
 
-```
-
+   ```bash
+      npm install
+   ```
 
 3. **Jalankan server lokal:**
-```bash
-npm run dev
 
-```
-
+   ```bash
+      npm run dev
+   ```
 
 4. Buka `http://localhost:5173` di browser kamu.
 
@@ -83,17 +87,3 @@ npm run dev
 ## 📄 Lisensi & Kredit
 
 Project ini dikembangkan oleh **Nita Fitrotul Mar’ah** sebagai tugas seleksi teknis posisi Web Developer Intern di **PT Ritelindo Akselera Kolaborasi**.
-
-```
-
----
-
-### Cara Mengisi di GitHub:
-1. Buka repository `ritelindo-landing` kamu di GitHub.
-2. Klik file `README.md` (atau klik tombol **"Add a README"** jika belum ada).
-3. Klik ikon pensil (**Edit this file**).
-4. Paste kode Markdown di atas.
-5. Ganti `USERNAME-KAMU` dengan username GitHub kamu.
-6. Klik **Commit changes...**.
-
-```
