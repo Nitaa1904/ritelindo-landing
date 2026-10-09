@@ -1,16 +1,99 @@
-# React + Vite
+# 🛒 B2B Landing Page - Ritelindo Group
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing Page B2B High-Converting yang dirancang khusus sebagai destinasi utama lalu lintas iklan Google Ads Search (*high-intent keywords*) untuk produk **Paket Rak Minimarket, Rak Gudang, dan Perlengkapan Toko Modern** Ritelindo Group.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [ritelindo-landing.vercel.app](https://ritelindo-landing.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 Deskripsi Singkat
+Project ini dibuat sebagai bagian dari **Mini Test Web Developer Intern** di Ritelindo Akselera Kolaborasi. Landing page ini mengoptimalkan antarmuka (UI/UX) untuk meningkatkan tingkat konversi *lead* B2B melalui tombol Call-to-Action (CTA) WhatsApp terintegrasi, penataan *value proposition* yang jelas, dan kalkulator estimasi kebutuhan toko interaktif.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Poin Utama & Value Proposition
+Landing page ini dirancang untuk menyoroti keunggulan utama Ritelindo Group:
+- 📐 **Free Konsultasi & Layout 3D** (Hero Section & Process Flow)
+- 🚚 **Free Ongkir Jawa-Bali**
+- 🛠️ **Free Perakitan** (Jatim, Jateng & DIY)
+- 📏 **Custom Ukuran & Desain** sesuai kebutuhan ruangan
+- 🏭 **Harga Tangan Pertama** (Langsung dari Pabrik)
+- 🏬 **Layanan Fleksibel:** Pembelian Satuan, Paket Toko, hingga Proyek Retail
+- 🎨 **Jasa Interior Toko Modern & Stylish**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Fitur & Komponen Interaktif
+1. **Header & Announcement Bar:** Promo banner dinamis, navigasi responsif, dan CTA WhatsApp.
+2. **Hero Section:** Headline B2B teroptimasi, subheadline persuasif, tombol CTA dengan efek *glow/pulse*, dan *trust badges*.
+3. **Feature Grid:** 6 keunggulan utama perusahaan dengan icon visual Lucide.
+4. **Product & Package Showcase:** Katalog interaktif paket toko (Paket Kelontong, Minimarket Standard, dan Custom Proyek).
+5. **Interactive Store Estimator:** Kalkulator interaktif bagi calon pembeli untuk mensimulasikan estimasi anggaran berdasarkan tipe dan luas toko.
+6. **3D Layout Process:** 4 langkah mudah alur kerja konsultasi hingga desain 3D gratis.
+7. **Social Proof & Portfolio Gallery:** Showcase hasil pengerjaan proyek retail + testimoni klien B2B.
+8. **Interactive FAQ Accordion:** Jawaban untuk pertanyaan umum seputar pengiriman, garansi, dan custom ukuran.
+9. **Floating Mobile CTA Bar:** Bar WhatsApp sticky di bagian bawah layar smartphone untuk aksesibilitas optimal.
+10. **Consultation Modal:** Form pop-up interaktif untuk kemudahan pengiriman draf pesan ke WhatsApp Sales.
+
+---
+
+## 🛠️ Tech Stack
+- **Framework:** React.js (via Vite)
+- **Styling:** Tailwind CSS v4
+- **Icons:** Lucide React
+- **Deployment:** Vercel
+
+---
+
+## 🏷️ Technical SEO & Optimization
+- **Semantic HTML Structure:** Menggunakan tag `<header>`, `<main>`, `<section>`, dan `<footer>` secara runtut.
+- **Heading Hierarchy:** Penataan hierarki heading `<h1>`, `<h2>`, dan `<h3>` yang rapi dan teroptimasi *keyword* B2B.
+- **WhatsApp API Integration:** Setiap tombol CTA secara otomatis memicu WhatsApp API dengan *preset message* sesuai dengan konteks produk/layanan yang dipilih.
+- **Responsive Mobile-First:** Tampilan yang ringan dan sangat responsif di perangkat Mobile, Tablet, maupun Desktop.
+
+---
+
+## 💻 Cara Menjalankan Project di Lokal
+
+1. **Clone repository ini:**
+   ```bash
+   git clone [https://github.com/USERNAME-KAMU/ritelindo-landing.git](https://github.com/USERNAME-KAMU/ritelindo-landing.git)
+   cd ritelindo-landing
+
+```
+
+2. **Install dependency:**
+```bash
+npm install
+
+```
+
+
+3. **Jalankan server lokal:**
+```bash
+npm run dev
+
+```
+
+
+4. Buka `http://localhost:5173` di browser kamu.
+
+---
+
+## 📄 Lisensi & Kredit
+
+Project ini dikembangkan oleh **Nita Fitrotul Mar’ah** sebagai tugas seleksi teknis posisi Web Developer Intern di **PT Ritelindo Akselera Kolaborasi**.
+
+```
+
+---
+
+### Cara Mengisi di GitHub:
+1. Buka repository `ritelindo-landing` kamu di GitHub.
+2. Klik file `README.md` (atau klik tombol **"Add a README"** jika belum ada).
+3. Klik ikon pensil (**Edit this file**).
+4. Paste kode Markdown di atas.
+5. Ganti `USERNAME-KAMU` dengan username GitHub kamu.
+6. Klik **Commit changes...**.
+
+```
